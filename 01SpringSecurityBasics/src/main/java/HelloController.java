@@ -12,7 +12,7 @@ public class HelloController {
 
 		ModelAndView model = new ModelAndView();
 		model.addObject("title", "Spring Security Custom Login Form");
-		model.addObject("message", "This is welcome page!");
+		model.addObject("message", "This is my page!");
 		model.setViewName("hello");
 		return model;
 
